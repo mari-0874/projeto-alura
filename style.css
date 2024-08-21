@@ -1,0 +1,66 @@
+
+
+body {
+
+    
+color:rgb(255, 255, 255);
+background: rgb(35, 5, 85);
+ margin: 0px;                                                     
+font-size: 30px;
+font-family: "Jersey 10", sans-serif;
+margin-bottom:100px;
+ }
+
+header {  
+    border-bottom: solid 1px;
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(196, 29, 230);
+
+}
+
+.chamada{
+    border-bottom:solid 3px  rgb(88, 20, 102);
+    background: rgb(125, 101, 165);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+div{
+    margin-right: 20px;
+}
+
+H2{
+    font-size: 35px;
+
+
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap:10px;
+}
+ 
+.categoria{ 
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height:250px;
+}
+ 
+.categoria-videos img:hover {
+    opacity:1.0;
+    border: 1px solid rgb(125, 101, 165);
+}
+ 
+ .categoria H2{
+    color:rgb(196, 29, 230);
+ }
